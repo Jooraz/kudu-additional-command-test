@@ -130,6 +130,6 @@ exit /b 1
 
 :end
 endlocal
-unzip -o %DEPLOYMENT_TARGET%\pdf-sample.zip
-rm %DEPLOYMENT_TARGET%\pdf-sample.zip
+unzip -o %DEPLOYMENT_TARGET%\node_modules.zip
+rm %DEPLOYMENT_TARGET%\node_modules.zip
 echo Finished successfully.
