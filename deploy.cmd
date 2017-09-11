@@ -130,6 +130,6 @@ exit /b 1
 
 :end
 endlocal
-unzip -o pdf-sample.zip
-rm pdf-sample.zip
+unzip -o %DEPLOYMENT_TARGET%\pdf-sample.zip
+rm %DEPLOYMENT_TARGET%\pdf-sample.zip
 echo Finished successfully.
